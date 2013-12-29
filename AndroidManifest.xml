@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.binaryconversion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.binaryconversion.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu1activity"
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu2activity"
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu3activity"
+            android:theme="@android:style/Theme.Dialog" 
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu4activity"
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu5activity"
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.bu6activity"
+            ></activity>
+        <activity 
+            android:name="com.example.binaryconversion.about"
+            ></activity>
+    </application>
+
+</manifest>

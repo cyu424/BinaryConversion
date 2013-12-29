@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Binary Conversion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="guide">This is a binary conversion,please select a mode!</string>
+    <string name="bu102">10-2</string>           
+    <string name="bu108">10-8</string>
+    <string name="bu1016">10-16</string>
+    <string name="bu28">2-8</string>
+    <string name="bu210">2-10</string>
+    <string name="bu216">2-16</string>
+    <string name="guide11">This is a binary conversion,from 10 to 2!</string> 
+    <string name="guide12">Please enter a decimal number!</string>
+    <string name="guide13">result:</string>
+    <string name="guide14">calculate</string>
+    <string name="guide21">This is a binary conversion,from 10 to 8!</string> 
+    <string name="guide31">This is a binary conversion,from 10 to 16!</string>
+    <string name="guide41">This is a binary conversion,from 2 to 8!</string>
+    <string name="guide42">Please enter a binary number!</string>
+    <string name="guide51">This is a binary conversion,from 2 to 10!</string>
+    <string name="guide61">This is a binary conversion,from 2 to 16!</string>
+    <string name="exit">exit</string>
+    <string name="about">about</string>
+    <string name="aboutcontent">This is an easy binary conversion. Developed by Yu. 受int类型范围影响，10-2，10-8，10-16模式下 输入十进制数范围为-2147483648 to 2147483647.且暂不支持小数</string>
+</resources>
